@@ -1,0 +1,111 @@
+.nav-paragraph {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: lightgrey !important;
+}
+
+.nav-item {
+    padding-left: 1rem;
+}
+
+.cover-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.cover-div:hover {  cursor: pointer;
+}
+
+.active {
+    color: #fc5160 !important;
+}
+
+.navbar {
+    box-shadow: none !important;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 2rem !important;
+    font-family: 'Playball', sans-serif;
+    line-height: 1;
+}
+
+.shopping-cart {
+    color: #2a2a2a !important;
+}
+
+a.shopping-cart {
+    display: none;
+}
+
+li.shopping-cart-text {
+    padding-bottom: -5rem;
+    padding-top: 1rem;
+}
+
+.text-for-cart {
+    margin-bottom: 0 !important;
+}
+
+.main-content {
+    padding-top: 2rem;
+}
+
+.active {
+    text-decoration: none;
+    border-bottom: 3px solid #fc5160;
+}
+
+@media (min-width: 768px) {
+    .text-for-cart {
+    }
+    .navbar-brand {
+        font-size: 3.5rem !important;
+    }
+    li.shopping-cart-text {
+        display: none;
+    }
+    span.shopping-cart {
+        display: none;
+    }
+    a.shopping-cart {
+        display: list-item;
+        font-size: 170%;
+    }
+    .fa-shopping-cart {
+      font-size: 140%;
+    }
+
+    .main-content {
+        padding-top: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-size: 4rem !important;
+    }
+}
+
+.fa-stack[data-count]:after {
+    position:absolute;
+    right:0;
+    top:1%;
+    content: attr(data-count);
+    font-size:60%;
+    padding:.6em;
+    border-radius:999px;
+    line-height:.75em;
+    color: white;
+    background: orangered;
+    text-align:center;
+    min-width:2em;
+    font-weight:bold;
+}

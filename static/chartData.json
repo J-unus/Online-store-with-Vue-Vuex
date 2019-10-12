@@ -1,0 +1,22 @@
+{
+  "chart1": {
+    "labels": ["Marble vase", "Granite bench", "Marble water fountain", "Quartz table", "others"],
+    "data": {
+      "income": [2478,5267,734,784,433]
+    }
+  },
+  "chart2": {
+    "labels": [0, 5, 10, 15, 20, 25, 30],
+    "data": {
+      "current": [147, 200, 400, 242, 240],
+      "previous": [127, 100, 250, 222, 280, 215, 140]
+    }
+  },
+  "chart3": {
+    "labels": [0, 5, 10, 15, 20, 25, 30],
+    "data": {
+      "real": [200, 450, 600, 1100, 1600],
+      "goal": [300, 600, 900, 1200, 1500, 1800, 2100]
+    }
+  }
+}

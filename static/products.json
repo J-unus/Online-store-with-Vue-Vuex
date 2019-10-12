@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Marble vase",
+      "image" : "./static/images/marble_vase.jpg",
+      "price": 69
+    },
+    {
+      "id":2,
+      "title": "Granite bench",
+      "image": "./static/images/granite_outdoor_bench.jpg",
+      "price": 420.50
+    },
+    {
+      "id":3,
+      "title": "Quartz chair",
+      "image": "./static/images/quartz_chair.jpg",
+      "price": 1337.00
+    },
+    {
+      "id":4,
+      "title": "Quartz ornamental",
+      "image": "./static/images/quartz_ornamental.jpg",
+      "price": 520
+    },
+    {
+      "id":5,
+      "title": "Marble flower pot",
+      "image": "./static/images/marble_flower_pot.jpg",
+      "price": 210
+    },
+    {
+      "id":6,
+      "title": "Marble vase",
+      "image": "./static/images/marble_vase_2.jpg",
+      "price": 320
+    },
+    {
+      "id":7,
+      "title": "Marble water fountain",
+      "image": "./static/images/marble_waterfountain.jpg",
+      "price": 420
+    },
+    {
+      "id":8,
+      "title": "Limestone table",
+      "image": "./static/images/limestone_table.jpg",
+      "price": 110
+    },
+    {
+      "id":9,
+      "title": "Quartz table",
+      "image": "./static/images/quartz_table.jpg",
+      "price": 220
+    },
+    {
+      "id":10,
+      "title": "Quartzite fire pit",
+      "image": "./static/images/quartzite_firepit.png",
+      "price": 440
+    },
+    {
+      "id":11,
+      "title": "Limestone side table",
+      "image": "./static/images/limestone_side_table.jpg",
+      "price": 550
+    }
+    ]
+}

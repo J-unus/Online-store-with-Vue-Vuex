@@ -1,0 +1,61 @@
+.navbar-brand {
+  font-size: 3.5rem !important;
+  font-family: 'Playball', sans-serif;
+  line-height: 1;
+  margin-bottom: 1.4rem;
+  color: #302e2e;
+  text-decoration: none;
+}
+
+.list-group {
+  margin-left: 5px;
+}
+
+.list-group-item {
+  font-size: 25px;
+  color: #2e2e2e;
+  margin-bottom: 3px;
+  border-color: white !important;
+}
+
+.active {
+  color:  #24931b !important;
+  background-color: white !important;
+  border-left-color: #24931b !important;
+  border-right-color: #24931b !important;
+  border-width: 10px;
+}
+
+.top {
+  font-size: 2rem;
+  margin-left: 12rem;
+}
+
+.chart-container {
+  width: 600px !important;
+  height: 300px !important;
+  margin-left: 20px !important;
+  margin-right: 80px !important;
+}
+
+.third-chart {
+  margin-left: 20px !important;
+  width: 1280px !important;
+  height: 500px !important;
+}
+
+
+@media (max-width: 1700px) {
+  .chart-container {
+    width: 400px !important;
+    height: 250px !important;
+    margin-left: 20px !important;
+    margin-right: 80px !important;
+  }
+
+  .third-chart {
+    margin-left: 20px !important;
+    width: 880px !important;
+    height: 400px !important;
+  }
+}
